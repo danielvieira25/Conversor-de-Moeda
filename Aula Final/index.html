@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Moedas
+        </h1>
+        <p class="page-subtitle">
+            Descubra os Valores em dolar U$
+        </p>
+        <img src="./NMBC-1.png" class="page-logo" alt=""><br />
+        <label for="moeda">Insira o Valor</label><br />
+        <input type="number" id="valor" size="2"/><br />
+        <button type="submit" onclick="Converter()">Converter</button>
+        <h2 id="valorConvertido"></h2>
+    </div>
+    <a href="https://novamicroway.com.br/" target="_blank">
+        <img src="./NMBC-1.png" alt="" class="microway-logo">
+</body>
+
+<footer>
+    <style>
+        label{
+            width:100px;
+            height:100px;
+            background-color:red;
+            animation-duration:example;
+            animation-duration:30s;
+        }
+        @keyframes example{
+            from{background-color:red;}
+            to {background-color:cornsilk;}
+        }    
+    </style>
+</footer>
+</html>
